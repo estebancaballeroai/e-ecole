@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monde CE1-CE2 Fantasy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="startScreen" class="start-screen">
+    <div class="start-box">
+      <div class="start-emoji">🏰🧙🐉</div>
+      <h1>Monde CE1-CE2 Fantasy</h1>
+      <p>Une app éducative gratuite en HTML, CSS et JavaScript.</p>
+      <button id="startBtn">▶️ Démarrer l’aventure</button>
+      <p class="small">Le bouton aide le navigateur à autoriser le son.</p>
+    </div>
+  </div>
+
+  <header class="hero">
+    <h1>🏰 Monde CE1-CE2 Fantasy</h1>
+    <p>Français, maths, lecture, logique et orthographe</p>
+  </header>
+
+  <nav class="topbar">
+    <span>⭐ <span id="stars">0</span></span>
+    <span>💎 <span id="gems">0</span></span>
+    <span>🧙 <span id="rank">Apprenti</span></span>
+    <button id="soundTest">🔊 Son</button>
+    <button id="homeBtn">🗺️ Carte</button>
+    <button id="treasureBtn">🏆 Trésor</button>
+    <button id="settingsBtn">⚙️ Options</button>
+  </nav>
+
+  <main class="container">
+    <section id="screenHome" class="screen active">
+      <article class="card">
+        <h2>🗺️ Carte des royaumes</h2>
+        <p>Choisis un niveau puis un royaume. Les réponses fausses affichent la correction.</p>
+        <div class="level-selector">
+          <button class="level-btn active" data-level="CE1">CE1</button>
+          <button class="level-btn" data-level="CE2">CE2</button>
+          <button class="level-btn" data-level="MIXTE">Mixte</button>
+        </div>
+        <div id="kingdomGrid" class="kingdom-grid"></div>
+      </article>
+    </section>
+
+    <section id="screenQuest" class="screen">
+      <button class="secondary" id="backToMap">⬅️ Retour carte</button>
+      <article class="card">
+        <div class="quest-header">
+          <div id="questIcon" class="quest-icon">📖</div>
+          <div>
+            <h2 id="questTitle">Quête</h2>
+            <p id="questDescription"></p>
+            <div class="progress"><div id="progressBar"></div></div>
+            <p id="progressText">0 / 0</p>
+          </div>
+        </div>
+        <div id="questionZone"></div>
+      </article>
+    </section>
+
+    <section id="screenTreasure" class="screen">
+      <button class="secondary" id="backFromTreasure">⬅️ Retour carte</button>
+      <article class="card centered">
+        <h2>🏆 Salle du trésor</h2>
+        <p>Les badges se débloquent avec les étoiles et les gemmes.</p>
+        <div id="badges" class="badges"></div>
+      </article>
+    </section>
+
+    <section id="screenSettings" class="screen">
+      <button class="secondary" id="backFromSettings">⬅️ Retour carte</button>
+      <article class="card">
+        <h2>⚙️ Options</h2>
+        <p>La progression est sauvegardée dans ce navigateur.</p>
+        <button id="exportBtn">📦 Exporter progression</button>
+        <button id="resetBtn" class="danger">🔁 Réinitialiser</button>
+        <pre id="exportBox"></pre>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

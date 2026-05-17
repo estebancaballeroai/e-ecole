@@ -1,0 +1,352 @@
+[
+  {
+    "id": "fr-ce1-001",
+    "level": "CE1",
+    "kingdom": "francais",
+    "title": "Déterminant",
+    "prompt": "___ avion vole dans le ciel.",
+    "choices": [
+      "Le",
+      "La",
+      "L’"
+    ],
+    "answer": "L’",
+    "explanation": "Devant une voyelle, le ou la devient l apostrophe."
+  },
+  {
+    "id": "fr-ce1-002",
+    "level": "CE1",
+    "kingdom": "francais",
+    "title": "Nom propre",
+    "prompt": "Quel mot est un nom propre ?",
+    "choices": [
+      "dragon",
+      "Emma",
+      "château"
+    ],
+    "answer": "Emma",
+    "explanation": "Un nom propre commence souvent par une majuscule."
+  },
+  {
+    "id": "fr-ce1-003",
+    "level": "CE1",
+    "kingdom": "francais",
+    "title": "Verbe",
+    "prompt": "Dans « Le lutin saute », quel est le verbe ?",
+    "choices": [
+      "Le",
+      "lutin",
+      "saute"
+    ],
+    "answer": "saute",
+    "explanation": "Le verbe dit ce que l'on fait."
+  },
+  {
+    "id": "fr-ce1-004",
+    "level": "CE1",
+    "kingdom": "francais",
+    "title": "Adjectif",
+    "prompt": "Dans « une potion verte », quel mot décrit la potion ?",
+    "choices": [
+      "une",
+      "potion",
+      "verte"
+    ],
+    "answer": "verte",
+    "explanation": "Verte est un adjectif."
+  },
+  {
+    "id": "ma-ce1-001",
+    "level": "CE1",
+    "kingdom": "maths",
+    "title": "Addition",
+    "prompt": "18 + 7 = ?",
+    "choices": [
+      "24",
+      "25",
+      "26"
+    ],
+    "answer": "25",
+    "explanation": "18 plus 7 égale 25."
+  },
+  {
+    "id": "ma-ce1-002",
+    "level": "CE1",
+    "kingdom": "maths",
+    "title": "Double",
+    "prompt": "Le double de 9 est...",
+    "choices": [
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "Le double, c'est deux fois le nombre."
+  },
+  {
+    "id": "ma-ce1-003",
+    "level": "CE1",
+    "kingdom": "maths",
+    "title": "Soustraction",
+    "prompt": "34 - 8 = ?",
+    "choices": [
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": "26",
+    "explanation": "34 moins 8 égale 26."
+  },
+  {
+    "id": "le-ce1-001",
+    "level": "CE1",
+    "kingdom": "lecture",
+    "title": "Compréhension",
+    "prompt": "« Le chevalier allume sa torche. » Que prend-il ?",
+    "choices": [
+      "une torche",
+      "une couronne",
+      "un livre"
+    ],
+    "answer": "une torche",
+    "explanation": "La réponse est écrite dans la phrase."
+  },
+  {
+    "id": "le-ce1-002",
+    "level": "CE1",
+    "kingdom": "lecture",
+    "title": "Qui ?",
+    "prompt": "« La fée aide le dragon. » Qui aide ?",
+    "choices": [
+      "La fée",
+      "Le dragon",
+      "Le château"
+    ],
+    "answer": "La fée",
+    "explanation": "La fée fait l'action."
+  },
+  {
+    "id": "lo-ce1-001",
+    "level": "CE1",
+    "kingdom": "logique",
+    "title": "Suite",
+    "prompt": "2, 4, 6, ?",
+    "choices": [
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "On ajoute 2 à chaque fois."
+  },
+  {
+    "id": "lo-ce1-002",
+    "level": "CE1",
+    "kingdom": "logique",
+    "title": "Intrus",
+    "prompt": "Trouve l’intrus : chat, chien, table, lapin",
+    "choices": [
+      "chat",
+      "table",
+      "lapin"
+    ],
+    "answer": "table",
+    "explanation": "La table n'est pas un animal."
+  },
+  {
+    "id": "or-ce1-001",
+    "level": "CE1",
+    "kingdom": "orthographe",
+    "title": "Mot bien écrit",
+    "prompt": "Choisis le mot bien écrit.",
+    "choices": [
+      "éléfan",
+      "éléphant",
+      "éléfand"
+    ],
+    "answer": "éléphant",
+    "explanation": "Éléphant s'écrit avec ph et t."
+  },
+  {
+    "id": "or-ce1-002",
+    "level": "CE1",
+    "kingdom": "orthographe",
+    "title": "Pluriel",
+    "prompt": "Un cheval, des...",
+    "choices": [
+      "chevals",
+      "chevaux",
+      "chevaus"
+    ],
+    "answer": "chevaux",
+    "explanation": "Le pluriel de cheval est chevaux."
+  },
+  {
+    "id": "fr-ce2-001",
+    "level": "CE2",
+    "kingdom": "francais",
+    "title": "Sujet",
+    "prompt": "Dans « Les chevaliers protègent le village », quel est le sujet ?",
+    "choices": [
+      "Les chevaliers",
+      "protègent",
+      "le village"
+    ],
+    "answer": "Les chevaliers",
+    "explanation": "Le sujet indique qui fait l'action."
+  },
+  {
+    "id": "fr-ce2-002",
+    "level": "CE2",
+    "kingdom": "francais",
+    "title": "Adjectif",
+    "prompt": "Quel est l’adjectif dans « une potion magique » ?",
+    "choices": [
+      "une",
+      "potion",
+      "magique"
+    ],
+    "answer": "magique",
+    "explanation": "L'adjectif donne une information sur le nom."
+  },
+  {
+    "id": "fr-ce2-003",
+    "level": "CE2",
+    "kingdom": "francais",
+    "title": "Futur",
+    "prompt": "Dans « Demain, le mage partira », le verbe est au...",
+    "choices": [
+      "présent",
+      "futur",
+      "passé"
+    ],
+    "answer": "futur",
+    "explanation": "Demain indique le futur."
+  },
+  {
+    "id": "ma-ce2-001",
+    "level": "CE2",
+    "kingdom": "maths",
+    "title": "Problème",
+    "prompt": "Un dragon a 4 sacs de 5 pièces. Combien de pièces ?",
+    "choices": [
+      "9",
+      "20",
+      "45"
+    ],
+    "answer": "20",
+    "explanation": "4 fois 5 égale 20."
+  },
+  {
+    "id": "ma-ce2-002",
+    "level": "CE2",
+    "kingdom": "maths",
+    "title": "Addition",
+    "prompt": "37 + 28 = ?",
+    "choices": [
+      "55",
+      "65",
+      "75"
+    ],
+    "answer": "65",
+    "explanation": "37 plus 28 égale 65."
+  },
+  {
+    "id": "ma-ce2-003",
+    "level": "CE2",
+    "kingdom": "maths",
+    "title": "Table",
+    "prompt": "6 × 4 = ?",
+    "choices": [
+      "20",
+      "24",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "6 fois 4 égale 24."
+  },
+  {
+    "id": "le-ce2-001",
+    "level": "CE2",
+    "kingdom": "lecture",
+    "title": "Inférence",
+    "prompt": "Tom prend son parapluie. Quel temps fait-il sûrement ?",
+    "choices": [
+      "il pleut",
+      "il neige",
+      "il fait très chaud"
+    ],
+    "answer": "il pleut",
+    "explanation": "Le parapluie donne un indice."
+  },
+  {
+    "id": "le-ce2-002",
+    "level": "CE2",
+    "kingdom": "lecture",
+    "title": "Cause",
+    "prompt": "La porte grince car elle est vieille. Pourquoi grince-t-elle ?",
+    "choices": [
+      "elle est vieille",
+      "elle est bleue",
+      "elle est fermée"
+    ],
+    "answer": "elle est vieille",
+    "explanation": "Le mot car donne la raison."
+  },
+  {
+    "id": "lo-ce2-001",
+    "level": "CE2",
+    "kingdom": "logique",
+    "title": "Suite",
+    "prompt": "3, 6, 12, 24, ?",
+    "choices": [
+      "30",
+      "36",
+      "48"
+    ],
+    "answer": "48",
+    "explanation": "On double à chaque fois."
+  },
+  {
+    "id": "lo-ce2-002",
+    "level": "CE2",
+    "kingdom": "logique",
+    "title": "Déduction",
+    "prompt": "Mia est plus grande que Léo. Léo est plus grand que Sami. Qui est le plus grand ?",
+    "choices": [
+      "Mia",
+      "Léo",
+      "Sami"
+    ],
+    "answer": "Mia",
+    "explanation": "Mia est au-dessus de Léo."
+  },
+  {
+    "id": "or-ce2-001",
+    "level": "CE2",
+    "kingdom": "orthographe",
+    "title": "Accord",
+    "prompt": "Choisis le bon groupe.",
+    "choices": [
+      "des potion magique",
+      "des potions magiques",
+      "des potions magique"
+    ],
+    "answer": "des potions magiques",
+    "explanation": "Au pluriel, le nom et l'adjectif prennent souvent s."
+  },
+  {
+    "id": "or-ce2-002",
+    "level": "CE2",
+    "kingdom": "orthographe",
+    "title": "Homophone",
+    "prompt": "Le mage ___ une cape.",
+    "choices": [
+      "a",
+      "à",
+      "as"
+    ],
+    "answer": "a",
+    "explanation": "On peut remplacer par avait."
+  }
+]
